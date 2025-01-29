@@ -1,6 +1,7 @@
 # EEG Signal Analysis Using Wavelets
 
 This documentation describes the application of wavelet transforms for EEG (Electroencephalogram) signal analysis, including preprocessing, feature extraction, and event detection.
+Think of EEG signals as a complex radio broadcast from your brain, where different brain activities are like radio stations broadcasting at different frequencies. Just as you might struggle to hear a clear radio signal mixed with static, raw EEG signals come with various types of noise and overlapping frequencies. This is where wavelet transforms come in - they're like having a sophisticated radio tuner that can not only separate these different "brain frequencies" (delta, theta, alpha, beta, and gamma waves) but can also tell you exactly when each signal gets stronger or weaker. Traditional methods like Fourier transforms are similar to a basic radio scanner that can tell you what stations exist but not when they're playing your favorite song. Wavelets are special because they can zoom in on very brief brain activities (like processing a sudden sound) while simultaneously tracking longer-term patterns (like moving from alertness to drowsiness). For engineers, this is particularly useful because it helps in designing better brain-computer interfaces, medical diagnostic tools, and even systems that can detect seizures or sleep disorders. It's like having a multi-scale magnifying glass that can examine both the forest and the trees of brain activity at the same time.
 
 ## Overview
 
